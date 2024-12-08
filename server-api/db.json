@@ -1,0 +1,36 @@
+{
+  "Student": [
+    {
+      "id": "1222",
+      "name": "Gopi Murthy",
+      "date": "2024-04-30",
+      "parentName": "Lakshmi Vijayan",
+      "city": "Dindigul",
+      "grade": "IX"
+    },
+    {
+      "id": "1123",
+      "name": "Elon",
+      "date": "2024-12-12",
+      "parentName": "Musk",
+      "city": "Ny",
+      "grade": "XII"
+    },
+    {
+      "id": "1234",
+      "name": "keerthan",
+      "date": "2024-12-01",
+      "parentName": "Leo",
+      "city": "Kothampatty",
+      "grade": "X"
+    },
+    {
+      "id": "1236",
+      "name": "Manoj ",
+      "date": "2024-12-28",
+      "parentName": "pm",
+      "city": "Dindigul",
+      "grade": "II"
+    }
+  ]
+}

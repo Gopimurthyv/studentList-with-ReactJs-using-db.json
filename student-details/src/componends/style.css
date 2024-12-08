@@ -1,0 +1,73 @@
+.home-h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500px;
+    margin-right: 49%;
+}
+.search{
+    
+}
+
+/* ADD Components */
+
+.custom-container {
+    max-width: 700px;
+    margin: auto;
+    background: linear-gradient(to bottom, #ffffff, #f7f9fc);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+label {
+    font-weight: 500;
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.custom-input {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.custom-input:focus {
+    border-color: #5a4fcf;
+    box-shadow: 0 0 5px rgba(90, 79, 207, 0.5);
+}
+
+.custom-btn {
+    background-color: #5a4fcf;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #3f39a6;
+}
+
+.custom-container .form-control::placeholder {
+    color: #aaa;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* DELETE ICON */
+.delete {
+    color: rgb(255, 0, 0);
+}
+
+.delete:hover {
+    background-color: rgba(255, 0, 0, 0.256);
+}
