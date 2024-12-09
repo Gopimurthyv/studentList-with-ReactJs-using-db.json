@@ -7,7 +7,7 @@ import Update from "./componends/Update";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

@@ -47,9 +47,9 @@ export default function Home() {
             alert('Deleted Successfully');
             window.location.reload();
             n('/');  
-    }).catch(err => {
-        console.error('Error deleting:', err);
-    });
+        }).catch(err => {
+            console.error('Error deleting:', err);
+        });
     }
 
     // TextColor and Background-Color for Grade
@@ -121,8 +121,8 @@ export default function Home() {
                                             {item.grade}
                                         </td>
                                         <td>
-                                            <Link to={`/update/${item.id}`}><FaPenToSquare className='edit'/></Link> &nbsp;:  
-                                            <span class="" onClick={()=>handleDelete(item.id)}><FaTrashCan className='delete ms-2 shadow'/></span>
+                                            <Link to={`/update/${item.id}`}><FaPenToSquare className='edit'/></Link> &nbsp; &nbsp;:  
+                                            <span onClick={()=>handleDelete(item.id)}><FaTrashCan className='delete ms-3 shadow'/></span>
                                         </td>
                                     </tr>
                                 );

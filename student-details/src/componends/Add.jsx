@@ -111,7 +111,7 @@ export default function Add() {
         {/* Save Button */}
         <div className="text-center">
           <button type="submit" className="btn btn-primary custom-btn"> SAVE </button>
-          <Link class="btn btn-danger text-white ms-3" to="/">{" "}Back{" "}</Link>
+          <Link class="btn btn-danger  ms-5" to="/">{" "}Back{" "}</Link>
         </div>
       </form>
     </div>

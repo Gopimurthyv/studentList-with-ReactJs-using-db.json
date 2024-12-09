@@ -21,6 +21,8 @@ const { id } = useParams();
     },[id]); 
 
     const n = useNavigate();
+
+    //Update Function
     const handleSubmit=e=>{
         e.preventDefault();
         axios.put("http://localhost:1111/Student/" + id,values)
@@ -29,7 +31,8 @@ const { id } = useParams();
             n('/');
         })
     }
-
+  
+  // TextColor for Grade
   const gradeOptions = [
       { value: "LKG",  bgColor: "rgba(255, 215, 0, 0.9)" }, 
       { value: "UKG",  bgColor: "rgba(255, 105, 180, 0.9)" }, 
@@ -46,6 +49,7 @@ const { id } = useParams();
       { value: "XI",  bgColor: "rgba(106, 90, 205, 0.9)" }, 
       { value: "XII", bgColor: "rgba(32, 178, 170, 0.9)" }, 
     ];
+    
   return (
     <div className="custom-container mt-5 p-4 shadow-lg rounded">
       <h4 className="mb-4 text-primary text-center">Student Details</h4>
